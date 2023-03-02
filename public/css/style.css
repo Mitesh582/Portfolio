@@ -3052,6 +3052,7 @@ h5,
 }
 
 .ftco-about .img-about .img {
+    margin-top: 100px;
     display: block;
     width: 100%;
     position: relative;

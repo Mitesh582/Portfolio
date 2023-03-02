@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
     return (
@@ -11,11 +12,11 @@ function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="ftco-nav">
                         <ul className="navbar-nav nav ml-auto">
-                            <li className="nav-item"><a href="#home-section" className="nav-link"><span>Home</span></a></li>
-                            <li className="nav-item"><a href="#about-section" className="nav-link"><span>About</span></a></li>
-                            <li className="nav-item"><a href="#skills-section" className="nav-link"><span>Skills</span></a></li>
-                            <li className="nav-item"><a href="#services-section" className="nav-link"><span>Resume</span></a></li>
-                            <li className="nav-item"><a href="#contact-section" className="nav-link"><span>Contact</span></a></li>
+                            <li className="nav-item"><NavLink to="/" className="nav-link"><span>Home</span></NavLink></li>
+                            <li className="nav-item"><NavLink to="/About" className="nav-link"><span>About</span></NavLink></li>
+                            <li className="nav-item"><NavLink to="/Skills" className="nav-link"><span>Skills</span></NavLink></li>
+                            <li className="nav-item"><NavLink to="/Resume" className="nav-link"><span>Resume</span></NavLink></li>
+                            <li className="nav-item"><NavLink to="/Contact" className="nav-link"><span>Contact</span></NavLink></li>
                         </ul>
                     </div>
                 </div>

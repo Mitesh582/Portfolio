@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Portfolio() {
+function Resume() {
     return (
         <section class="ftco-section" id="services-section">
             <div className="container">
@@ -89,4 +89,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio
+export default Resume

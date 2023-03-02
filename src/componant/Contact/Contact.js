@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contect() {
+function Contact() {
     return (
         <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
             <div className="container">
@@ -86,4 +86,4 @@ function Contect() {
     )
 }
 
-export default Contect
+export default Contact
